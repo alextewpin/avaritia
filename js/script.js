@@ -35,7 +35,7 @@ const mm = currentDate.getMonth();
 const yy = currentDate.getYear();
 const daysInCurrentMonth = daysInMonth(mm, yy);
 
-const daysLeft = dd > BUDGET_MONTH_START
+const daysLeft = dd >= BUDGET_MONTH_START
   ? daysInCurrentMonth - dd + BUDGET_MONTH_START
   : BUDGET_MONTH_START - dd;
 
