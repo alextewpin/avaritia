@@ -1,0 +1,50 @@
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #353a5b;
+  font-family: "Helvetica Neue", Helvetica,  sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  padding: 2em 1em 0;
+}
+
+.content {
+  background-color: #f3f2f6;
+  max-width: 20em;
+  margin: 0px auto;
+  padding: 1.5em 1em;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#days-left {
+  font-size: 1em;
+}
+
+.budget {
+  margin: 1.5em 0em;
+}
+
+.budget-label {
+  font-size: 1em;
+}
+
+.budget-amount {
+  font-size: 2em;
+}
+
+.budget-daily {
+  font-size: 0.8em;
+  line-height: 1.5rem;
+}
